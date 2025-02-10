@@ -6,6 +6,16 @@
     <title>MyRepublicMajalengkaSales</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <style>
+        .jumbotron {
+        padding-left: 0%;
+        padding-right: 0%;
+        padding-bottom: 0%;
+        padding-top: 2rem;
+        background-color: #ADF6FF;
+        }
+        .subTitle {
+           font-weight: 300;
+        }
         .card {
             margin-bottom: 20px;
         }
@@ -118,82 +128,40 @@
     </style>
 </head>
 <body>
-    <div class="container">
-        
-        <h2 class="text-center my-4">Sekarang saatnya menikmati kecepatan baru internet fiber ultra cepat dan unlimited dari MyRepublic</h2>
+        <section class="jumbotron w-100 overflow-hidden">
+        <h2 class="text-center my-4">Selamat Datang di MyRepublic Majalengka</h2>
+        <h2 class="text-center my-4 subTitle">Sekarang saatnya menikmati kecepatan baru internet fiber ultra cepat dan unlimited</h2>
         <h4 class="text-center my-4 " style="color: #662A81;">Paket Internet Only</h4>
-
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#FFFFFF" fill-opacity="1" d="M0,96L60,122.7C120,149,240,203,360,186.7C480,171,600,85,720,74.7C840,64,960,128,1080,160C1200,192,1320,192,1380,192L1440,192L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path></svg>
+        </section>
         <!-- Tab bar -->
-        <ul class="nav nav-tabs" id="myTab" role="tablist">
-          <li class="nav-item" role="presentation">
-              <a class="nav-link active" id="oneMonth-tab" data-toggle="tab" href="#oneMonth" role="tab" aria-controls="oneMonth" aria-selected="true">1 Bulan</a>
-          </li>
-          <li class="nav-item" role="presentation">
-              <a class="nav-link" id="twelveMonth-tab" data-toggle="tab" href="#twelveMonth" role="tab" aria-controls="twelveMonth" aria-selected="false">12 Bulan</a>
-          </li>
-      </ul>
+<div class="container">
+    <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <li class="nav-item" role="presentation">
+            <a class="nav-link active" id="oneMonth-tab" data-toggle="tab" href="#oneMonth" role="tab" aria-controls="oneMonth" aria-selected="true">1 Bulan</a>
+        </li>
+        <li class="nav-item" role="presentation">
+            <a class="nav-link" id="twelveMonth-tab" data-toggle="tab" href="#twelveMonth" role="tab" aria-controls="twelveMonth" aria-selected="false">12 Bulan</a>
+        </li>
+    </ul>
 
-        <!-- Tab content -->
-        <div class="tab-content" id="myTabContent">
-          <div class="tab-pane fade show active" id="oneMonth" role="tabpanel" aria-labelledby="oneMonth-tab">
-                <!-- Produk dengan harga untuk 1 bulan -->
-                <div class="row">
+      <!-- Tab content -->
+      <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="oneMonth" role="tabpanel" aria-labelledby="oneMonth-tab">
+              <!-- Produk dengan harga untuk 1 bulan -->
+              <div class="row">
 
-                  <div class="col-md-3">
-                      <div class="card">
-                        <img src="img/20mbps.png" class="img-fluid" alt="">
-                          <div class="card-header">
-                              <h5 class="card-title">Jet</h5>
-                              <h6 class="card-subtitle mb-2">20 Mbps</h6>
-                              <h6 class="card-subtitle mb-2">Unlimited</h6>
-                          </div>
-                          <div class="card-body">
-                              <p class="card-text harga bold">Rp 205.350 / Bulan</p>
-                              <p class="card-text harga mb-2"><del>Rp 259.000 / Bulan</del></p>
-                              <p class="card-text mb-2">Syarat ketentuan</p>
-                              <p class="card-text small-text">*Promo tidak dapat digabung</p>
-                              <p class="card-text small-text">*Harga sudah termasuk PPN 11%</p>
-                              <p class="card-text small-text mb-3">*Promo disc tidak termasuk biaya layanan tambahan</p>
-                              <div class="text-center">
-                                <a href="https://wa.me/6282120355252?text=Halo%20Admin%2C%20saya%20ingin%20bertanya%20tentang%20layanan%20MyRepublic%20Majalengka.%20Apakah%20anda%20dapat%20memberikan%20informasi?" class="btn btn-primary w-100" style="background-color: #662A81; border-color: #662A81;">Hubungi Admin</a>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-      
-                  <div class="col-md-3">
-                      <div class="card">
-                        <img src="img/30mbps.webp" class="img-fluid" alt="">
-                          <div class="card-header">
-                              <h5 class="card-title">Value</h5>
-                              <h6 class="card-subtitle mb-2">30 Mbps</h6>
-                              <h6 class="card-subtitle mb-2">Unlimited</h6>
-                          </div>
-                          <div class="card-body">
-                              <p class="card-text harga bold">Rp 260.850 / Bulan</p>
-                              <p class="card-text harga mb-2"><del>Rp 346.090 / Bulan</del></p>
-                              <p class="card-text mb-2">Syarat ketentuan</p>
-                              <p class="card-text small-text">*Promo tidak dapat digabung</p>
-                              <p class="card-text small-text">*Harga sudah termasuk PPN 11%</p>
-                              <p class="card-text small-text mb-3">*Promo disc tidak termasuk biaya layanan tambahan</p>
-                              <div class="text-center">
-                                <a href="https://wa.me/6282120355252?text=Halo%20Admin%2C%20saya%20ingin%20bertanya%20tentang%20layanan%20MyRepublic%20Majalengka.%20Apakah%20anda%20dapat%20memberikan%20informasi?" class="btn btn-primary w-100" style="background-color: #662A81; border-color: #662A81;">Hubungi Admin</a>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-      
-                  <div class="col-md-3">
+                <div class="col-md-3">
                     <div class="card">
-                      <img src="img/50mbps.webp" class="img-fluid" alt="">
+                      <img src="img/20mbps.png" class="img-fluid" alt="">
                         <div class="card-header">
-                            <h5 class="card-title">Fast</h5>
-                            <h6 class="card-subtitle mb-2">50 Mbps</h6>
+                            <h5 class="card-title">Jet</h5>
+                            <h6 class="card-subtitle mb-2">20 Mbps</h6>
                             <h6 class="card-subtitle mb-2">Unlimited</h6>
                         </div>
                         <div class="card-body">
-                            <p class="card-text harga bold">Rp 277.500 / Bulan</p>
-                            <p class="card-text harga mb-2"><del>Rp 458.090 / Bulan</del></p>
+                            <p class="card-text harga bold">Rp 205.350 / Bulan</p>
+                            <p class="card-text harga mb-2"><del>Rp 259.000 / Bulan</del></p>
                             <p class="card-text mb-2">Syarat ketentuan</p>
                             <p class="card-text small-text">*Promo tidak dapat digabung</p>
                             <p class="card-text small-text">*Harga sudah termasuk PPN 11%</p>
@@ -204,19 +172,18 @@
                         </div>
                     </div>
                 </div>
-      
-                  <div class="col-md-3">
+    
+                <div class="col-md-3">
                     <div class="card">
-                      <img src="img/100mbps.webp" class="img-fluid" alt="">
-      
+                      <img src="img/30mbps.webp" class="img-fluid" alt="">
                         <div class="card-header">
-                            <h5 class="card-title">Nova</h5>
-                            <h6 class="card-subtitle mb-2">100 Mbps</h6>
+                            <h5 class="card-title">Value</h5>
+                            <h6 class="card-subtitle mb-2">30 Mbps</h6>
                             <h6 class="card-subtitle mb-2">Unlimited</h6>
                         </div>
                         <div class="card-body">
-                            <p class="card-text harga bold">Rp 360.750 / Bulan</p>
-                            <p class="card-text harga mb-2"><del>Rp 716.397 / Bulan</del></p>
+                            <p class="card-text harga bold">Rp 260.850 / Bulan</p>
+                            <p class="card-text harga mb-2"><del>Rp 346.090 / Bulan</del></p>
                             <p class="card-text mb-2">Syarat ketentuan</p>
                             <p class="card-text small-text">*Promo tidak dapat digabung</p>
                             <p class="card-text small-text">*Harga sudah termasuk PPN 11%</p>
@@ -227,17 +194,84 @@
                         </div>
                     </div>
                 </div>
-      
+    
+                <div class="col-md-3">
+                  <div class="card">
+                    <img src="img/50mbps.webp" class="img-fluid" alt="">
+                      <div class="card-header">
+                          <h5 class="card-title">Fast</h5>
+                          <h6 class="card-subtitle mb-2">50 Mbps</h6>
+                          <h6 class="card-subtitle mb-2">Unlimited</h6>
+                      </div>
+                      <div class="card-body">
+                          <p class="card-text harga bold">Rp 277.500 / Bulan</p>
+                          <p class="card-text harga mb-2"><del>Rp 458.090 / Bulan</del></p>
+                          <p class="card-text mb-2">Syarat ketentuan</p>
+                          <p class="card-text small-text">*Promo tidak dapat digabung</p>
+                          <p class="card-text small-text">*Harga sudah termasuk PPN 11%</p>
+                          <p class="card-text small-text mb-3">*Promo disc tidak termasuk biaya layanan tambahan</p>
+                          <div class="text-center">
+                            <a href="https://wa.me/6282120355252?text=Halo%20Admin%2C%20saya%20ingin%20bertanya%20tentang%20layanan%20MyRepublic%20Majalengka.%20Apakah%20anda%20dapat%20memberikan%20informasi?" class="btn btn-primary w-100" style="background-color: #662A81; border-color: #662A81;">Hubungi Admin</a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+    
+                <div class="col-md-3">
+                  <div class="card">
+                    <img src="img/100mbps.webp" class="img-fluid" alt="">
+    
+                      <div class="card-header">
+                          <h5 class="card-title">Nova</h5>
+                          <h6 class="card-subtitle mb-2">100 Mbps</h6>
+                          <h6 class="card-subtitle mb-2">Unlimited</h6>
+                      </div>
+                      <div class="card-body">
+                          <p class="card-text harga bold">Rp 360.750 / Bulan</p>
+                          <p class="card-text harga mb-2"><del>Rp 716.397 / Bulan</del></p>
+                          <p class="card-text mb-2">Syarat ketentuan</p>
+                          <p class="card-text small-text">*Promo tidak dapat digabung</p>
+                          <p class="card-text small-text">*Harga sudah termasuk PPN 11%</p>
+                          <p class="card-text small-text mb-3">*Promo disc tidak termasuk biaya layanan tambahan</p>
+                          <div class="text-center">
+                            <a href="https://wa.me/6282120355252?text=Halo%20Admin%2C%20saya%20ingin%20bertanya%20tentang%20layanan%20MyRepublic%20Majalengka.%20Apakah%20anda%20dapat%20memberikan%20informasi?" class="btn btn-primary w-100" style="background-color: #662A81; border-color: #662A81;">Hubungi Admin</a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+    
+                <div class="col-md-3">
+                  <div class="card">
+                    <img src="img/250mbps.webp" class="img-fluid" alt="">
+                      <div class="card-header">
+                          <h5 class="card-title">MyGamer</h5>
+                          <h6 class="card-subtitle mb-2">250 Mbps</h6>
+                          <h6 class="card-subtitle mb-2">Unlimited</h6>
+                      </div>
+                      <div class="card-body">
+                          <p class="card-text harga bold">Rp 499.500 / Bulan</p>
+                          <p class="card-text harga mb-2"><del>Rp 839.496 / Bulan</del></p>
+                          <p class="card-text mb-2">Syarat ketentuan</p>
+                          <p class="card-text small-text">*Promo tidak dapat digabung</p>
+                          <p class="card-text small-text">*Harga sudah termasuk PPN 11%</p>
+                          <p class="card-text small-text mb-3">*Promo disc tidak termasuk biaya layanan tambahan</p>
+                          <div class="text-center">
+                            <a href="https://wa.me/6282120355252?text=Halo%20Admin%2C%20saya%20ingin%20bertanya%20tentang%20layanan%20MyRepublic%20Majalengka.%20Apakah%20anda%20dapat%20memberikan%20informasi?" class="btn btn-primary w-100" style="background-color: #662A81; border-color: #662A81;">Hubungi Admin</a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+    
                   <div class="col-md-3">
                     <div class="card">
-                      <img src="img/250mbps.webp" class="img-fluid" alt="">
+                      <img src="img/500mbps.webp" class="img-fluid" alt="">
                         <div class="card-header">
-                            <h5 class="card-title">MyGamer</h5>
-                            <h6 class="card-subtitle mb-2">250 Mbps</h6>
+                            <h5 class="card-title">Prime</h5>
+                            <h6 class="card-subtitle mb-2">500 Mbps</h6>
                             <h6 class="card-subtitle mb-2">Unlimited</h6>
                         </div>
                         <div class="card-body">
-                            <p class="card-text harga bold">Rp 499.500 / Bulan</p>
+                            <p class="card-text harga bold">Rp 582.750 / Bulan</p>
                             <p class="card-text harga mb-2"><del>Rp 839.496 / Bulan</del></p>
                             <p class="card-text mb-2">Syarat ketentuan</p>
                             <p class="card-text small-text">*Promo tidak dapat digabung</p>
@@ -249,66 +283,80 @@
                         </div>
                     </div>
                 </div>
-      
-                    <div class="col-md-3">
+                 
+            </div>
+          </div>
+
+          <div class="tab-pane fade" id="twelveMonth" role="tabpanel" aria-labelledby="twelveMonth-tab">
+              <!-- Produk dengan harga untuk 12 bulan -->
+              <div class="row">
+                  <!-- Product Cards for 12 Months -->
+                  <div class="col-md-3">
                       <div class="card">
-                        <img src="img/500mbps.webp" class="img-fluid" alt="">
+                        <img src="img/30mbps.webp" class="img-fluid" alt="">
                           <div class="card-header">
-                              <h5 class="card-title">Prime</h5>
-                              <h6 class="card-subtitle mb-2">500 Mbps</h6>
+                              <h5 class="card-title">Value</h5>
+                              <h6 class="card-subtitle mb-2">30 Mbps</h6>
                               <h6 class="card-subtitle mb-2">Unlimited</h6>
                           </div>
                           <div class="card-body">
-                              <p class="card-text harga bold">Rp 582.750 / Bulan</p>
-                              <p class="card-text harga mb-2"><del>Rp 839.496 / Bulan</del></p>
+                              <p class="card-text harga bold">Rp 2.700.000 / Tahun</p>
                               <p class="card-text mb-2">Syarat ketentuan</p>
-                              <p class="card-text small-text">*Promo tidak dapat digabung</p>
-                              <p class="card-text small-text">*Harga sudah termasuk PPN 11%</p>
-                              <p class="card-text small-text mb-3">*Promo disc tidak termasuk biaya layanan tambahan</p>
+                              <p class="card-text small-text mb-3">*Harga belum termasuk PPN 11%</p>
                               <div class="text-center">
                                 <a href="https://wa.me/6282120355252?text=Halo%20Admin%2C%20saya%20ingin%20bertanya%20tentang%20layanan%20MyRepublic%20Majalengka.%20Apakah%20anda%20dapat%20memberikan%20informasi?" class="btn btn-primary w-100" style="background-color: #662A81; border-color: #662A81;">Hubungi Admin</a>
                               </div>
                           </div>
                       </div>
                   </div>
-                   
+                  
+                  <div class="col-md-3">
+                      <div class="card">
+                        <img src="img/50mbps.webp" class="img-fluid" alt="">
+                          <div class="card-header">
+                              <h5 class="card-title">Fast</h5>
+                              <h6 class="card-subtitle mb-2">50 Mbps</h6>
+                              <h6 class="card-subtitle mb-2">Unlimited</h6>
+                          </div>
+                          <div class="card-body">
+                              <p class="card-text harga bold">Rp 2.900.000 / Tahun</p>
+                              <p class="card-text mb-2">Syarat ketentuan</p>
+                              <p class="card-text small-text mb-3">*Harga belum termasuk PPN 11%</p>
+                              <div class="text-center">
+                                <a href="https://wa.me/6282120355252?text=Halo%20Admin%2C%20saya%20ingin%20bertanya%20tentang%20layanan%20MyRepublic%20Majalengka.%20Apakah%20anda%20dapat%20memberikan%20informasi?" class="btn btn-primary w-100" style="background-color: #662A81; border-color: #662A81;">Hubungi Admin</a>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  
+                  <div class="col-md-3">
+                      <div class="card">
+                        <img src="img/100mbps.webp" class="img-fluid" alt="">
+                          <div class="card-header">
+                              <h5 class="card-title">Nova</h5>
+                              <h6 class="card-subtitle mb-2">100 Mbps</h6>
+                              <h6 class="card-subtitle mb-2">Unlimited</h6>
+                          </div>
+                          <div class="card-body">
+                              <p class="card-text harga bold">Rp 3.500.000 / Tahun</p>
+                              <p class="card-text mb-2">Syarat ketentuan</p>
+                              <p class="card-text small-text mb-3">*Harga belum termasuk PPN 11%</p>
+                              <div class="text-center">
+                                <a href="https://wa.me/6282120355252?text=Halo%20Admin%2C%20saya%20ingin%20bertanya%20tentang%20layanan%20MyRepublic%20Majalengka.%20Apakah%20anda%20dapat%20memberikan%20informasi?" class="btn btn-primary w-100" style="background-color: #662A81; border-color: #662A81;">Hubungi Admin</a>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <!-- Add more product cards for 12 Bulan -->
               </div>
-            </div>
+          </div>
+      </div>
+      <div class="d-flex justify-content-center">
+        <img src="img/ban.jpeg" class="img-fluid my-4 ban" alt="" style="border-radius: 20px;">
+      </div>
+</div>
 
-            <div class="tab-pane fade" id="twelveMonth" role="tabpanel" aria-labelledby="twelveMonth-tab">
-                <!-- Produk dengan harga untuk 12 bulan -->
-                <div class="row">
-                    <!-- Product Cards for 12 Months -->
-                    <div class="col-md-3">
-                        <div class="card">
-                            <img src="img/20mbps.png" class="img-fluid" alt="">
-                            <div class="card-header">
-                                <h5 class="card-title">Jet</h5>
-                                <h6 class="card-subtitle mb-2">20 Mbps</h6>
-                                <h6 class="card-subtitle mb-2">Unlimited</h6>
-                            </div>
-                            <div class="card-body">
-                                <p class="card-text harga bold">Rp 2.463.600 / Tahun</p>
-                                <p class="card-text harga mb-2"><del>Rp 3.108.000 / Tahun</del></p>
-                                <p class="card-text mb-2">Syarat ketentuan</p>
-                                <p class="card-text small-text">*Promo tidak dapat digabung</p>
-                                <p class="card-text small-text">*Harga sudah termasuk PPN 11%</p>
-                                <p class="card-text small-text mb-3">*Promo disc tidak termasuk biaya layanan tambahan</p>
-                                <div class="text-center">
-                                    <a href="https://wa.me/6282120355252?text=Halo%20Admin%2C%20saya%20ingin%20bertanya%20tentang%20layanan%20MyRepublic%20Majalengka.%20Apakah%20anda%20dapat%20memberikan%20informasi?" class="btn btn-primary w-100" style="background-color: #662A81; border-color: #662A81;">Hubungi Admin</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Add more product cards for 12 Bulan -->
-                </div>
-            </div>
-        </div>
-        <div class="d-flex justify-content-center">
-          <img src="img/ban.jpeg" class="img-fluid my-4 ban" alt="" style="border-radius: 20px;">
-        </div>
-
-    </div>
+    
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
